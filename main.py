@@ -184,9 +184,6 @@ def solvePeg(board):
 
 	if sol != False:
 		checkSolution(Board(ROWS, COLS, False), sol)
-	else :
-		"No Solution found, sol is False"
-
 
 def solve(board, moves, k = 0):
 	if k > DEPTHLIMIT:
